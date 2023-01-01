@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+            <h3>Sing up to dribbble</h3>
+            <div class="botones">
+                <button class="google-btn">
+                    <picture class="img">
+                        <img src="img/logo-google.png" alt="logo-google">
+                    </picture>
+                    <span>Registrarse con google</span>
+                </button>
+                <button class="twiter-btn">
+                    <picture>T</picture>
+                </button>
+            </div>
+            <div class="separator">
+                <hr>
+                <span>OK</span>
+                <hr>
+            </div>
+        <form action="" method="post">
+            <div class="section-inputs">
+                <label for="name">
+                    <span>Name</span>
+                    <input type="text" name="_nombre" id="name">
+                </label>
+                <label for="username">
+                    <span>Username</span>
+                    <input type="text" name="_username" id="username">
+                </label>
+            </div>
+            <label for="email">
+                <span>Email</span>
+                <input type="email" name="_email" id="email">
+            </label>
+            <label for="password">
+                <span>Password</span>
+                <input type="password" name="_password" id="password" placeholder="6 o mas caracteres">
+            </label>
+            <label for="checkbox" class="checkbox-lable">
+                <input type="checkbox" name="_checkbox" id="checkbox">
+                <span>Acepto los terminos de uso de la web y pliticas de privacidad</span>
+            </label>
+            <button type="submit" class="submit-btn">Create account</button>
+        </form>
+    </div>
+    
+</body>
+</html>
