@@ -1,0 +1,7 @@
+.btn-modern{cursor: pointer; display: flex; border: none; padding: 10px 20px; transition: all 0.5s; border-radius: 5px;}
+.btn-modern:hover{transform: translateY(-5px);box-shadow: 5px 5px grey; background-color: tan; color: purple;}
+
+
+
+
+
